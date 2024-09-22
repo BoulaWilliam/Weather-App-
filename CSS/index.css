@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #262936;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Navbar Style */
+nav {
+    background: #1e202b;
+}
+.logoTitle p {
+    font-size: .7rem;
+}
+.navbar-nav li a {
+    font-size: 1rem;
+    padding: 5px 25px;
+    border: 2px solid #009ad8;
+    position: relative;
+    transition: .5s ease;
+    color: #009ad8;
+}
+.navbar-nav li a:hover {
+    background: #009ad8;
+    color: #fff;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    padding:  10px;
+    outline: none;
+    border-radius: 50%;
+    transition: .5s ease;
+}
+.hamburger:hover{
+    border: 1px solid #009ad8;
+
+}
+.hamburger .line {
+    width: 1.5rem;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+    transition: .5s ease;
+}
+
+.hamburger:hover .line{
+    background: #009ad8;
+}
+
+/* Home Style */
+.home {
+    position: relative;
+    top: 6%;
+    background-image: url(../Images/banner.png);
+    background-position: center ;
+    background-size: cover;
+    /* max-height: 450px; */
+}
+.input-group {
+    position: relative;
+    margin-bottom: 70px;
+}
+.input-group .CityName,.input-group .email {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border: none;
+}
+.input-group .SearchBtn,.input-group .SubscribeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+.SearchBtn,.SubscribeBtn {
+    background-color: #009ad8;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: .5s ease;
+}
+.SearchBtn:hover,
+.SubscribeBtn:hover {
+    background-color: #017aa9;
+    
+}
+
+.todayWeather,.Weather {
+    background: #262936;
+}
+.date {
+    background: #009ad8;
+}
+.todayWeather .num {
+    font-size: 6rem;
+    font-weight: 600;
+    margin-right: 25px;
+}
+.Weather .num {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-right: 25px;
+}
+.todayWeather span,.Weather span {
+    margin-right: 30px;
+}
+.custom{
+    color: #009ad8;
+}
+
+
+
+footer {
+    position: relative;
+    background: #262936;
+}
+.social-links a {
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .5s ease;
+    border: 1px solid transparent;
+
+}
+.social-links a:hover{
+    color: #009ad8;
+    border: 
+    1px solid #009ad8;
+}
+.subscribe{
+    margin-bottom: 25px;
+}
+.CopyRight {
+    color: #bfc1c8;
+    font-size: .8rem;
+    position: relative;
+}

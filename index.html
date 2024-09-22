@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether App</title>
+    <!-- Links -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container d-flex justify-content-between align-items-center p-1">
+            <!-- Logo -->
+            <div class="TheLogo d-flex align-items-center justify-content-center">
+                <a class="Logo" href="#"><img src="Images/logo.png" class="d-block" alt="Logo">
+
+                </a>
+                <div class="logoTitle d-inline-block mt-3 ms-2">
+                    <h1 class="fs-5 mt-2">Weather</h1>
+                    <p class="">tagline goes here</p>
+                </div>
+            </div>
+            <!-- Collapse btn -->
+            <div class="hamburger navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <!-- Nav-item -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-center ms-auto">
+                    <li class="p-3">
+                        <a class="active rounded-pill" href="#home">Home</a>
+                    </li>
+                    <li class="p-3">
+                        <a href="#about" class="rounded-pill">News</a>
+                    </li>
+                    <li class="p-3">
+                        <a href="#live" class="rounded-pill">Live Cameras</a>
+                    </li>
+
+                    <li class="p-3">
+                        <a href="#photos" class="rounded-pill">Photos</a>
+                    </li>
+
+                    <li class="p-3">
+                        <a href="#contact" class="rounded-pill">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home mb-5 pb-5">
+        <div class="container pt-3  mt-5">
+            <div class="input-group mt-5">
+                <input type="text" id="city" class="CityName rounded-pill" placeholder="Find your location...">
+                <input type="button" class="SearchBtn rounded-pill" value="Find" id="submit">
+            </div>
+
+            <!-- Weather forecast display area -->
+            <div class="row" id="rowData">
+            <!-- Weather data will be dynamically inserted here -->
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <footer class="pt-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="subscribe input-group">
+                        <input type="text" class="email rounded-pill" placeholder="Enter your email to subscribe...">
+                        <input type="submit" class="SubscribeBtn rounded-pill" value="Subscribe">
+
+                    </div>
+                    <p class="CopyRight py-0 my-0">Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                    </p>
+
+                </div>
+                <div class="col-md-3 mt-4 ms-5">
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-google"></i></a>
+                        <a href="#"><i class="bi bi-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>
